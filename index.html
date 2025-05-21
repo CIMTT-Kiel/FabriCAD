@@ -9,17 +9,29 @@
   
   <style>
 
-  .zoom-img {
-    transition: transform 0.3s ease;
-    cursor: zoom-in;
-  }
-  .zoom-img:hover {
-    transform: scale(5);
-    z-index: 10;
-  }
+.zoom-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+  transform-origin: center center; /* Zoom von der Mitte */
+}
+
+.zoom-img:hover {
+  transform: scale(2); /* Beispiel: 2x Zoom beim Hover */
+}
     body {
       font-family: 'Segoe UI', sans-serif;
     }
+
+    .zoom-container {
+  overflow: hidden;
+  width: 100%; /* oder feste Breite */
+  max-width: 600px; /* Beispiel */
+  margin: 0 auto;
+}
 
   header {
     background-image: url('images/header_img.webp');
@@ -95,7 +107,7 @@
   </ul>
 
   <p>
-    Each sample in the dataset primarily consists of a detailed process plan and a corresponding 3D-CAD model. To represent realistic manufacturing processes and conditions, the workflows are based on sequences derived from Markov chains. These chains were computed from 50,000 real-world process plans from the metalworking industry. As a result, all generated parts are strictly related to metalworking. The currently covered process steps include:
+    Each sample in the dataset primarily consists of a detailed process plan and a corresponding 3D-CAD model. To represent realistic manufacturing processes and conditions, the workflows are based on sequences derived from Markovchains. These were computed from 50,000 real-world process productionplans from the metalworking industry. As a result, all generated parts are related to metalworking. The currently covered process steps include:
 
     Affecting geometry:
     <ul>
@@ -117,12 +129,12 @@
     
     We are currently extending the dataset to include additional features and process steps.
     The process plan includes information such as individual steps, assigned workstations, estimated durations, and cost estimations.
-    In addition, every step is enriched with detailed, feature-level metadata. For example, in drilling operations, the dataset specifies whether the hole is a fit, includes a thread, and which tools and cutting parameters are used.
+    In addition, every step is enriched with detailed, feature-level metadata. For example, in drilling operations, the dataset specifies whether the hole is a fit, includes a thread, and which tools and cutting parameters can be used.
   </p>
 
   <p>
-    During the generation of the dataset, parametrized CAD data is available for every modification at the feature level.
-    However, due to storage constraints, the main dataset only contains the final versions of each CAD model. If you require more fine-grained CAD-process data, feel free to contact us.
+    During the generation of the dataset, parametrized CAD-data is available for every modification at the feature level.
+    However, due to storage constraints, the main dataset only contains the final versions of each model. If you require more fine-grained CAD-process data, feel free to contact us.
   </p>
 
   <p>
@@ -144,11 +156,14 @@
   <div class="container">
     <h2>Preview</h2>
     <p>Below is a small subset of the data available for preview:</p>
+
     <div class="row g-4 mt-4">
       <div class="col-md-4">
+
         <img src="images/sample_fabricad0.png" alt="Sample Part A"
         class="img-fluid rounded shadow-sm zoom-img"
         style="max-height: 500px; object-fit: contain;">
+
       </div>
       <div class="col-md-4">
         <img src="images/sample_fabricad_detailed.png" alt="Sample Part B"
@@ -175,7 +190,7 @@
   <p>
     A few samples are available here
   </p>
-  <a href="fabricad_preview_data.zip" class="btn btn-primary">Download Test Data</a>
+  <a href="data/preview_samples.zip" class="btn btn-primary">Download Test Data</a>
   <p class="mt-3">
     If you're interested in the full dataset or would like to collaborate, feel free to reach out to us at:
     <a href="mailto:michel.kruse@fh-kiel.de">michel.kruse@fh-kiel.de</a>
