@@ -18,9 +18,22 @@ from collections import namedtuple
 _ROOT = Path(__file__).parents[2]
 _path_dict = {
     "ROOT":                 _ROOT,
-    "PREVIEW_DATA":             _ROOT / "data/fabricad_preview_data",
+    "REPORT_FIGURES":       _ROOT / "reports/figures",
+    "CONFIG":               _ROOT / "config",
+
+    "DATA_RAW":             _ROOT / "data/1_raw",
+    "DATA_INTERMEDIATE":    _ROOT / "data/2_intermediate",
+    "DATA_PRIMARY":         _ROOT / "data/3_primary",
+    "DATA_FEATURE":         _ROOT / "data/4_feature",
+    "DATA_MODEL_INPUT":     _ROOT / "data/5_model_input",
+    "DATA_MODELS":          _ROOT / "data/6_models",
+    "DATA_MODEL_OUTPUT":    _ROOT / "data/7_model_output",
+    "DATA_REPORTING":       _ROOT / "data/8_reporting",
+    "PREVIEW_DATA":         _ROOT / "data/preview_samples/fabricad_preview_data",
 
 }
+
+
 
 Paths = namedtuple("Paths", list(_path_dict.keys()))
 PATHS = Paths(**_path_dict)

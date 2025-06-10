@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# exlude data files
+data/1_raw
+data/2_intermediate
+data/3_primary
+data/4_feature
+data/5_model_input
+data/preview_samples/*
+
 # C extensions
 *.so
 
