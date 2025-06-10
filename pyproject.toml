@@ -5,12 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fabricad"
 version = "0.1.0"
-requires-python = ">=3.10"
+requires-python = "==3.12.2"
 dependencies = [
     "streamlit",
     "matplotlib",
     "ipykernel",
-    "pandas==2.2.3"
+    "pandas==2.2.3",
+    "ezstep"
 ]
 
 [tool.setuptools]
@@ -18,3 +19,6 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.uv.sources]
+ezstep = {git = "https://gitlab.iue.fh-kiel.de/cadforai/ezstep.git", branch = "main"}
