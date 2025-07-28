@@ -15,7 +15,7 @@ from collections import namedtuple
 
 
 # Paths
-_ROOT = Path(__file__).parents[2]
+_ROOT = Path(__file__).parents[1]
 _path_dict = {
     "ROOT":                 _ROOT,
     "REPORT_FIGURES":       _ROOT / "reports/figures",
@@ -29,7 +29,7 @@ _path_dict = {
     "DATA_MODELS":          _ROOT / "data/6_models",
     "DATA_MODEL_OUTPUT":    _ROOT / "data/7_model_output",
     "DATA_REPORTING":       _ROOT / "data/8_reporting",
-    "PREVIEW_DATA":         _ROOT / "data/preview_samples/fabricad_preview_data",
+    "PREVIEW_DATA":         _ROOT / "data/fabricad_preview_data",
 
 }
 
