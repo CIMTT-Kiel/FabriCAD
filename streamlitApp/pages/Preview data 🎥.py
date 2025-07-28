@@ -2,12 +2,11 @@
 import streamlit as st
 from pathlib import Path
 import pandas as pd
-#from streamlit_stl import stl_from_file
 import numpy as np
 import re
 
 #custom imports
-from fabricad.constants import PATHS
+from constants import PATHS
 
 
 

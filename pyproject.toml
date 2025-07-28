@@ -11,7 +11,7 @@ dependencies = [
     "matplotlib",
     "ipykernel",
     "pandas==2.2.3",
-    "ezstep"
+    "tqdm"
 ]
 
 [tool.setuptools]
@@ -20,5 +20,3 @@ package-dir = {"" = "src"}
 [tool.setuptools.packages.find]
 where = ["src"]
 
-[tool.uv.sources]
-ezstep = {git = "https://gitlab.iue.fh-kiel.de/cadforai/ezstep.git", branch = "main"}

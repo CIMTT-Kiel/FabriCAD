@@ -11,15 +11,10 @@ import pandas as pd
 import json
 
 #local libaries
-from fabricad.constants import PATHS
-from ezstep.conversions import CAD_Converter
-from ezstep.conversions import logger as ezstep_logger
-# suppress ezstep logger
-ezstep_logger.setLevel(logging.WARNING)
-
+from constants import PATHS
 
 # set up logger
-logging_level = logging.WARNING
+logging_level = logging.INFO
 logger = logging.getLogger(__name__)
 logger.setLevel(logging_level)
 
@@ -75,11 +70,10 @@ class Raw_to_Feature:
         """
         # get path to next step file
         try:
-            # Dein Code mit next(self._path_generator)
             self._sample_to_process = next(self._path_generator)
         except StopIteration as e:
-            logger.error(f"StopIteration caught: {e}")
-            raise e  # Um sicherzustellen, dass der Fehler korrekt weitergegeben wird
+            logger.info(f"Stopped ieration. No more files to process in {PATHS.DATA_RAW}")
+            raise e  
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")
             raise e
@@ -87,51 +81,30 @@ class Raw_to_Feature:
         self._file_id = self._sample_to_process.stem
         self._target_sample_dir = PATHS.DATA_FEATURE / self._sample_to_process.stem
 
-    def _to_vecset(self):
-        step_file = self._sample_to_process / f"geometry_{self._file_id}.STEP"
-        logger.debug(f"Converting STEP file {step_file} to vecset")
+    def _to_feature(self):
+        """
+        Converts the raw data to custom feature data.
 
-        vs_target_file = self._target_sample_dir / "features/vecset.npy"
+        You can use this method to convert the raw data to your custom feature data. The to_vecset method is used to convert a STEP file to a vecset and can be used as an example. 
+        """
+        return None
 
-        if vs_target_file.exists():
-            logger.debug(f"Vecset file {vs_target_file} already exists")
-            return None
-        
-        vs_target_file.parent.mkdir(parents=True, exist_ok=True)
-        try:
-            converter = CAD_Converter.from_step(step_file)
-            converter.to_vecset(vs_target_file)
-        except Exception as e:
-            logger.error(f"Error converting STEP to vecset: {e}", exc_info=True)
-            return None
-        
+    # def _to_vecset(self):
+    #     step_file = self._sample_to_process / f"geometry_{self._file_id}.STEP"
+    #     logger.debug(f"Converting STEP file {step_file} to vecset")
 
+    #     vs_target_file = self._target_sample_dir / "features/vecset.npy"
 
-
-    # def _convert_step_to_voxel(self):
-    #     logger.debug("Start to convert STEP file to VOXEL. Start with STEP to STL..")
-    #     step_file = self._file_to_process / f"geometry_{self._file_id}.STEP"
-        
-    #     interim_stl_file = PATHS.DATA_INTERIM / f"{self._file_id}/stl/{self._file_id}.stl"
-    #     voxel_file = PATHS.DATA_FEATURE / f"{self._file_id}/voxel/{self._file_id}.npz"
-
-    #     logger.debug(f"interim STL file: {interim_stl_file}")
-    #     logger.debug(f"Voxel file: {voxel_file}")
-
-    #     if voxel_file.exists():
-    #         logger.debug(f"File {voxel_file} already exists")
+    #     if vs_target_file.exists():
+    #         logger.debug(f"Vecset file {vs_target_file} already exists")
     #         return None
-
+        
+    #     vs_target_file.parent.mkdir(parents=True, exist_ok=True)
     #     try:
-    #         stl = Converter.convertStepToStl(step_file, interim_stl_file)
-    #         voxel = Converter.stl_to_voxel(stl.converted_file, voxel_file,  128)
+    #         converter = CAD_Converter.from_step(step_file)
+    #         converter.to_vecset(vs_target_file)
     #     except Exception as e:
-    #         logger.error(f"Error: {e}", exc_info=True)
-    #         #clean up
-    #         if interim_stl_file.parent.exists():
-    #             shutil.rmtree(interim_stl_file.parent)
-    #         if voxel_file.exists():
-    #             shutil.rmtree(voxel_file.parent)
+    #         logger.error(f"Error converting STEP to vecset: {e}", exc_info=True)
     #         return None
         
     def _convert_metadata(self):
@@ -207,7 +180,7 @@ class Raw_to_Feature:
             plan_file = self._target_sample_dir / "production_plan/production_plan.json"
             feature_file = self._target_sample_dir / "production_plan/features.json"
             prediction_file = self._target_sample_dir / "prediction_targets/targets.json"
-            vecset_file = self._target_sample_dir / f"features/vecset.npy"
+            #vecset_file = self._target_sample_dir / f"features/vecset.npy"
 
             if plan_file.exists()==False:
                 logger.info(f"File {plan_file} does not exist")
@@ -218,9 +191,9 @@ class Raw_to_Feature:
             if prediction_file.exists()==False:
                 logger.info(f"File {prediction_file} does not exist")
                 return False
-            if vecset_file.exists()==False:
-                logger.info(f"File {vecset_file} does not exist")
-                return False
+            # if vecset_file.exists()==False:
+            #     logger.info(f"File {vecset_file} does not exist")
+            #     return False
 
             return True
 
@@ -250,15 +223,15 @@ class Raw_to_Feature:
                     break
 
                 try:
-                    vecset_thread = threading.Thread(target=self._to_vecset)
+                    feature_thread = threading.Thread(target=self._to_feature)
                     table_thread = threading.Thread(target=self._convert_table_data)
 
                     logger.debug("Starting threads")
-                    vecset_thread.start()
+                    feature_thread.start()
                     table_thread.start()
 
 
-                    vecset_thread.join()
+                    #vecset_thread.join()
                     table_thread.join()
 
                     logger.debug("Threads finished")
