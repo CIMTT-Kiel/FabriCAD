@@ -29,8 +29,6 @@ _path_dict = {
     "DATA_MODELS":          _ROOT / "data/6_models",
     "DATA_MODEL_OUTPUT":    _ROOT / "data/7_model_output",
     "DATA_REPORTING":       _ROOT / "data/8_reporting",
-    "PREVIEW_DATA":         _ROOT / "data/preview_samples",
-
 }
 
 

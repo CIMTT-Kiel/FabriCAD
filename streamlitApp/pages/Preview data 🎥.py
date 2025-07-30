@@ -15,7 +15,7 @@ def extract_rank(path_str):
 
 st.set_page_config(layout="wide")
 
-path_to_samples = PATHS.PREVIEW_DATA
+path_to_samples = PATHS.DATA_RAW
 
 samples = sorted(list(path_to_samples.iterdir()))
 samples = [elem for elem in samples if elem.is_dir()]
@@ -55,28 +55,22 @@ for i in range(0,totalToShow):
 
     id = sample_path.name
 
-
-    #show_substeps = cols[2].checkbox("Zeige Featureebene", key = f"checkbox_{i}", value = False)
-
     #if show_substeps:
-    interim_states = list(sample_path.joinpath("interim").glob("*.png"))  #key = lambda x: extract_rank(x))
-    substeps_states = list(sample_path.joinpath("interim/substeps/").glob("*.png"))  #key = lambda x: extract_rank(x))
+    interim_states = list(sample_path.joinpath("interim").glob("*.png")) 
+    substeps_states = list(sample_path.joinpath("interim/substeps/").glob("*.png"))  
+    
+    try:
+        final_state_preview = list((sample_path / "interim").glob("*.png"))[0]
+    except:
+         final_state_preview=None
 
-    final_state_preview = list((sample_path / "interim").glob("*.png"))[0]
 
-    assert final_state_preview is not None, "No final state preview found!"
 
     all_state_paths = interim_states + substeps_states
-    #st.write(all_state_paths)
     all_states = {}
 
     for elem in all_state_paths:
         all_states[extract_rank(str(elem))]=elem 
-
-
-    #else:
-    #    interims = [elem for elem in sample_path.joinpath("interim").glob("*.png") if True]
-
 
     try:
         plan = pd.read_csv(str(sample_path.joinpath("plan.csv")), sep=";", index_col=False, decimal='.', dtype={'Materialnummer' : str, 'Nr.' : str, ' Qualifikation' : 'uint8', "Kosten[($)]" : float})
@@ -117,10 +111,6 @@ for i in range(0,totalToShow):
     show_features_mata = cols[0].checkbox("Featureebene", key = f"Checkbox_{i}")
     show_comp = cols[0].checkbox("Zusammensetzung Kosten", key = f"Checkbox_comp_{i}")
 
-
-
-
-
     step_selector = cols[1].slider("Schrittauswahl:", min_value=1, max_value=len(plan), value=len(interim_states), key = f"Slider_{i}")
 
     color = "lightgreen"
@@ -128,7 +118,6 @@ for i in range(0,totalToShow):
     plan = plan.map(
     lambda _: f"background-color: {color}", subset=(plan.index[[step_selector-1]],)
     )
-  
     
     cols[2].dataframe(plan, hide_index = False)  
 
@@ -162,12 +151,15 @@ for i in range(0,totalToShow):
             else:
                 select_meta_step=1
             
-            try:    
-                cols[1].markdown("Vorschau Werkstück:")
-                cols[1].image(str(all_states[float(f"{step_selector}.{select_meta_step}")]), use_container_width=True)
-            except:
-                cols[1].image(final_state_preview.as_posix(), use_container_width=True)
-                cols[1].markdown(":green[Hinweis: Keine Vorschau der Zwischenschritte verfügbar.]")
+            if final_state_preview is None:
+                cols[1].markdown("Keine Vorschau verfügbar")
+            else:
+                try:    
+                    cols[1].markdown("Vorschau Werkstück:")
+                    cols[1].image(str(all_states[float(f"{step_selector}.{select_meta_step}")]), use_container_width=True)
+                except:
+                    cols[1].image(final_state_preview.as_posix(), use_container_width=True)
+                    cols[1].markdown(":green[Hinweis: Keine Vorschau der Zwischenschritte verfügbar.]")
 
 
             color = "lightgray"
@@ -175,22 +167,28 @@ for i in range(0,totalToShow):
 
             cols[2].dataframe(meta_plan, hide_index=True)
         else:
-            cols[2].markdown(":red[Arbeitsschritt hat keine geometrischen Features hinzugefügt!]")
+            cols[2].markdown("Arbeitsschritt hat keine geometrischen Features hinzugefügt!")
+            if final_state_preview is None:
+                cols[1].markdown("Keine Vorschau verfügbar")
+            else:
+                cols[1].markdown("Vorschau Werkstück:")
+                #check if image is available
+                try:
+                    key = all_states[float(step_selector)]
+                    cols[1].image(str(key), width=5)
+                except KeyError:
+                    cols[1].image(final_state_preview.as_posix(), use_container_width=True)
+
+    else:
+        if final_state_preview is None:
+            cols[1].markdown("Keine Vorschau verfügbar")
+        else:
             cols[1].markdown("Vorschau Werkstück:")
-            #check if image is available
             try:
                 key = all_states[float(step_selector)]
                 cols[1].image(str(key), width=5)
             except KeyError:
                 cols[1].image(final_state_preview.as_posix(), use_container_width=True)
-
-    else:
-        cols[1].markdown("Vorschau Werkstück:")
-        try:
-            key = all_states[float(step_selector)]
-            cols[1].image(str(key), width=5)
-        except KeyError:
-            cols[1].image(final_state_preview.as_posix(), use_container_width=True)
 
 st.divider()
 left, _, _ = st.columns(3)

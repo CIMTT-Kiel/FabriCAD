@@ -1,0 +1,9 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;null (#40);-66.37450890623418;0.0;0.0;Schlichtdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.2;null (#43);-66.37450890623418;0.0;0.0;Schlichtdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.3;null (#46);-121.26547642856622;0.0;0.0;Einstichmeißel (1.0[mm]) (0.0);0.0;0.0;0.0;-
+2;2.4;null (#49);-4613.42881179661;0.0;0.0;Konturdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.5;null (#52);-542.8672105403167;0.0;0.0;Formmeißel (6.0[mm]) (0.0);0.0;0.0;0.0;-
+3;3.1;Bohrung Ø9 x 2.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M9 Gewinde (#64);-661.1740920873592;0.0;0.014692757601941317;Spiralbohrer (9.0);0.1768388256576615;7.8;45000.0;-
+3;3.2;Bohrung Ø20 x 6.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M20 Gewinde (#68);-7238.229473870881;0.0;0.04021238596594934;Spiralbohrer (20.0);0.1432394487827058;17.5;180000.0;-
+4;4.1;Langloch Ø7.5[mm] x 5.0[mm] DIN3771 (#74);-952.1432334555325;0.0;0.01246352578078805;Schruppfräser (6.0);3.183098861837907;4.0;76394.37268410977;-

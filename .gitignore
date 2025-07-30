@@ -4,12 +4,11 @@ __pycache__/
 *$py.class
 
 # exlude data files
-data/1_raw/*
 data/2_intermediate
 data/3_primary
 data/4_feature
 data/5_model_input
-data/fabricad_preview_data/*
+
 
 #exclude unpacked preview files 
 data/preview_samples/*
