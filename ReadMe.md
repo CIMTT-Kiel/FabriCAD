@@ -42,8 +42,6 @@ Each sample primarily consists of:
 ### 3D CAD Model
 - **Parametric design**: STEP format (.stp)
 - **Manufacturable geometry**: Realistic wall thicknesses and feature placements
-- **Final product representation**: End result of the manufacturing process
-
 ---
 
 ## 🛠️ Supported Manufacturing Operations
@@ -121,24 +119,10 @@ streamlit run Home.py
 The `fabricad-1k-detailed` dataset includes:
 - **Process images**: Visual representation of each manufacturing step
 - **Intermediate CAD states**: Geometry at each process stage
-- **Complete documentation**: Full manufacturing workflow visualization
 
 ---
 
 ## 🎛️ Advanced Capabilities
-
-### Custom Dataset Generation
-Need specific data for your research? We can generate tailored datasets with:
-- **Specific manufacturing processes**: Focus on particular operations
-- **Custom materials or geometries**: Application-specific requirements
-- **Extended process information**: Additional metadata and parameters
-- **Alternative formats**: Different file formats or data structures
-
-### Extended CAD Process Data
-While standard datasets include final CAD models to save space, we can provide:
-- **Intermediate CAD states**: Geometry after each process step
-- **Alternative CAD formats**: Beyond STEP files
-- **Feature-level change tracking**: Detailed geometric evolution
 
 **Contact us for custom requirements and extended data options.**
 
@@ -178,7 +162,6 @@ While standard datasets include final CAD models to save space, we can provide:
 - **Process prediction**: Sequence modeling and next-step prediction
 - **Cost estimation**: Resource and time prediction models
 - **Quality optimization**: Process parameter optimization
-- **Anomaly detection**: Unusual process or geometric patterns
 
 ### Academic Research
 - **Benchmarking**: Standardized dataset for comparative studies
@@ -238,4 +221,3 @@ Special thanks go to the Design Cockpit 43 (DC43) development team at IILS, who 
 - ✈️ **Design Cockpit 43**: [https://www.iils.de/de/]
 - 📊 **Demo Page**: [cimtt-kiel.github.io/FabriCAD](https://cimtt-kiel.github.io/FabriCAD/)
 - 🏫 **CIMTT**: [Center for Industrial Manufacturing Technologies and Processes](https://www.fh-kiel.de/)
-- 📧 **Support**: Contact us for technical support and collaboration opportunities
