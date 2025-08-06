@@ -64,8 +64,6 @@ for i in range(0,totalToShow):
     except:
          final_state_preview=None
 
-
-
     all_state_paths = interim_states + substeps_states
     all_states = {}
 
@@ -152,7 +150,7 @@ for i in range(0,totalToShow):
                 select_meta_step=1
             
             if final_state_preview is None:
-                cols[1].markdown("Keine Vorschau verfügbar")
+                cols[1].markdown("Vorschau nur im fabricad-interim-states-1k verfügbar")
             else:
                 try:    
                     cols[1].markdown("Vorschau Werkstück:")
@@ -169,26 +167,28 @@ for i in range(0,totalToShow):
         else:
             cols[2].markdown("Arbeitsschritt hat keine geometrischen Features hinzugefügt!")
             if final_state_preview is None:
-                cols[1].markdown("Keine Vorschau verfügbar")
+                cols[1].markdown("Vorschau nur im fabricad-interim-states-1k verfügbar")
             else:
                 cols[1].markdown("Vorschau Werkstück:")
                 #check if image is available
                 try:
                     key = all_states[float(step_selector)]
-                    cols[1].image(str(key), width=5)
+                    cols[1].image(str(key))
                 except KeyError:
-                    cols[1].image(final_state_preview.as_posix(), use_container_width=True)
+                    if final_state_preview is not None:
+                        cols[1].image(final_state_preview.as_posix(), use_container_width=True)
+                    else:
+                        cols[1].markdown("Vorschau nur im fabricad-interim-states-1k verfügbar")
 
     else:
-        if final_state_preview is None:
-            cols[1].markdown("Keine Vorschau verfügbar")
-        else:
-            cols[1].markdown("Vorschau Werkstück:")
-            try:
-                key = all_states[float(step_selector)]
-                cols[1].image(str(key), width=5)
-            except KeyError:
+        try:
+            key = all_states[float(step_selector)]
+            cols[1].image(str(key))
+        except KeyError:
+            if final_state_preview is not None:
                 cols[1].image(final_state_preview.as_posix(), use_container_width=True)
+            else:
+                cols[1].markdown("Vorschau nur im fabricad-interim-states-1k verfügbar")
 
 st.divider()
 left, _, _ = st.columns(3)
