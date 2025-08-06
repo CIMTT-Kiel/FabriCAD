@@ -1,0 +1,5 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;null (#41);-2865.132500073896;0.0;0.0;Einstichmeißel (10.0[mm]) (0.0);0.0;0.0;0.0;-
+2;2.2;null (#44);-10555.751316061705;0.0;0.0;Einstichmeißel (10.0[mm]) (0.0);0.0;0.0;0.0;-
+2;2.3;null (#47);-48337.675541487886;0.0;0.0;Konturdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.4;null (#50);-1168.9342665232016;0.0;0.0;Formmeißel (5.0[mm]) (0.0);0.0;0.0;0.0;-

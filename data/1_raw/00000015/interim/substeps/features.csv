@@ -1,0 +1,7 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;null (#49);-87.97088097389627;0.0;0.0;Schlichtdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.2;null (#52);-87.97088097389627;0.0;0.0;Schlichtdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.3;null (#55);-10014.769061113544;0.0;0.0;Einstichmeißel (11.0[mm]) (0.0);0.0;0.0;0.0;-
+2;2.4;null (#58);-43930.39803961982;0.0;0.0;Konturdrehmeißel (0.0);0.0;0.0;0.0;-
+2;2.5;null (#61);-2430.178997184385;0.0;0.0;Formmeißel (9.0[mm]) (0.0);0.0;0.0;0.0;-
+3;3.1;Langloch Ø10.3[mm] x 8.0[mm] DIN3771 (#67);-2873.2551292386825;0.0;0.026118626174494897;Schruppfräser (10.0);2.291831180523293;6.0;110007.89666511807;-

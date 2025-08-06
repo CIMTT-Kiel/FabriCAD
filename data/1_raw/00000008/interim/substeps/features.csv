@@ -1,0 +1,5 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Dreieckige Stufe an Ecke mit 83.0[mm] L1, 8.0[mm] L2 und Tiefe 12.0[mm] (#47);-3984.0;0.0;0.018245051212684743;Schruppfräser (8.0);7.798592211502872;4.0;218360.58192208043;-
+2;2.2;Durchgehender zweiseitig abgeschrägter Absatz: 250.0[mm] x 184.5[mm] x 15.0[mm] (#53);-515446.875;0.0;0.36719367705574063;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.3;Rechteckige Tasche mit 54.0[mm] x 7.0[mm] x 6.0[mm] (#63);-2268.0;0.0;0.01696460032938488;Schruppfräser (6.0);8.91267681314614;3.0;133690.1521971921;-
+2;2.4;Abgerundete Viertelstufe  Ø10 [mm] x 15.0[mm] (#69);-294.52431127404304;0.0;0.0026773015410941174;Schaftfräser (10.0);4.583662361046586;4.0;110007.89666511807;-

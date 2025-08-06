@@ -1,0 +1,7 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Rechteckige Stufe an Ecke mit 207.0[mm] L1, 73.0[mm] L2 und Tiefe 60.0[mm] (#45);-906660.0;0.0;2.997007991691626;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.2;Tasche mit abgerundeten Endflächen Ø58.0[mm] mit einer Gesamtlänge 21.0[mm] und Tiefe 32.0[mm] (#51);-88673.27074670426;0.0;0.2931137373186288;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.3;Durchgehender Schlitz-Stufe: 100.0[mm] x 73.8[mm] x 23.0[mm] (#61);-169740.0;0.0;0.5610836879422679;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.4;Rechteckige Tasche mit 25.0[mm] x 21.0[mm] x 20.0[mm] (#65);-10500.0;0.0;0.057268616081063935;Schruppfräser (20.0);1.5278874536821954;10.0;183346.49444186347;-
+2;2.5;Tasche mit abgerundeten Endflächen Ø28.0[mm] mit einer Gesamtlänge 18.0[mm] und Tiefe 37.0[mm] (#71);-27967.414961916587;0.0;0.12106236963218478;Schruppfräser (25.0);1.3750987083139756;12.0;231016.5829967479;-
+2;2.6;O-Ring-Nut Ø20.0[mm] x 3.0[mm] DIN3771 (#77);-706.8583470577033;0.0;0.02313188531505318;Schruppfräser (3.0);5.092958178940651;2.0;30557.749073643903;-

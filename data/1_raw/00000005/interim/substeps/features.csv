@@ -1,0 +1,6 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Langloch Ø72.0[mm] x 40.0[mm] DIN3771 (#45);-260780.16316209498;0.0;0.18577438657414627;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.2;Abgerundete Viertelstufe  Ø78 [mm] x 60.0[mm] (#51);-71675.43639165112;0.0;0.051060096238288805;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.3;Rechteckige Stufe an Ecke mit 201.0[mm] L1, 21.0[mm] L2 und Tiefe 30.0[mm] (#57);-126630.0;0.0;0.1894380370114645;Schruppfräser (20.0);4.45633840657307;10.0;668450.7609859605;-
+2;2.4;O-Ring-Nut Ø22.0[mm] x 6.0[mm] DIN3771 (#63);-1809.557368467721;0.0;0.013535457464351119;Schruppfräser (6.0);8.91267681314614;3.0;133690.1521971921;-
+2;2.5;Tasche mit abgerundeten Endflächen Ø26.0[mm] mit einer Gesamtlänge 71.0[mm] und Tiefe 37.0[mm] (#69);-50226.189431448496;0.0;0.05929466831095476;Schruppfräser (25.0);3.921577797784301;12.0;847060.804321409;-

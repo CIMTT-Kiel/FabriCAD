@@ -1,0 +1,14 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#38);-4694.324822626549;0.0;0.07823874704377581;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.2;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#41);-4694.324822626548;0.0;0.0782387470437758;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.3;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#44);-4694.324822626548;0.0;0.0782387470437758;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.4;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#49);-4694.324822626548;0.0;0.0782387470437758;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.5;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#53);-4694.324822626548;0.0;0.0782387470437758;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+3;3.1;Geschweißter Steg L: 39.0[mm], B: 14.0[mm], H: 64.0[mm]  (#58);-28076.999816173855;0.0;0.0;- (-);-;-;-;106.0[mm]
+3;3.2;Geschweißter Steg L: 42.0[mm], B: 10.0[mm], H: 58.0[mm]  (#61);-19006.211885416196;0.0;0.0;- (-);-;-;-;104.0[mm]
+3;3.3;Geschweißte konisch zulaufende Aufnahme 19.0[mm]  (#65);-22283.475213249163;0.0;0.0;- (-);-;-;-;119.381[mm]
+5;5.1;Durchgehender zweiseitig abgeschrägter Absatz: 300.0[mm] x 14.7[mm] x 18.0[mm] (#98);-48421.8;0.0;0.37148124823832546;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-
+5;5.2;Rechteckige Tasche mit 190.0[mm] x 20.0[mm] x 14.0[mm] (#102);-53200.0;0.0;0.2901609881440572;Schruppfräser (20.0);1.5278874536821954;10.0;183346.49444186347;-
+5;5.3;Rechteckige Tasche mit 44.0[mm] x 8.0[mm] x 8.0[mm] (#106);-2816.0;0.0;0.030638008355009027;Schruppfräser (8.0);2.626056561016273;5.0;91911.97963556957;-
+5;5.4;Rechteckige Tasche mit 17.0[mm] x 9.0[mm] x 8.0[mm] (#122);-1224.0000000000002;0.0;0.013317088858853358;Schruppfräser (8.0);2.626056561016273;5.0;91911.97963556957;-
+5;5.5;Durchgehender zweiseitig abgeschrägter Absatz: 62.4[mm] x 50.0[mm] x 60.0[mm] (#132);-112320.0;0.0;0.3712791317878846;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-

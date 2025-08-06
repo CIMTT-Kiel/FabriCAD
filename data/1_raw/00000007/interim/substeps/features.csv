@@ -1,0 +1,6 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#45);-4301.625740927824;0.0;0.07169376234879707;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.2;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#49);-4301.625740927824;0.0;0.07169376234879707;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.3;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#53);-4301.625740927825;0.0;0.07169376234879708;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.4;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#57);-4301.625740927826;0.0;0.0716937623487971;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.5;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#61);-4301.625740927824;0.0;0.07169376234879707;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-

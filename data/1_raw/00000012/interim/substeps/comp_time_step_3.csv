@@ -1,11 +1,11 @@
 Key;Value
-Total clamp op.;3
-Total Features;8
+Total clamp op.;2
+Total Features;3
 Tool exchanges;1
-time for fits;0.0[s]
-Total time;17.161[min]
+time for fits;20.0[s]
+Total time;12.1993[min]
 Time tool exchanges;10.0[s]
-time in operation;2.99437[min]
-time for threads;153.6[s]
+time in operation;1.03258[min]
+time for threads;22.0[s]
 Total time Preparation and Cleanup;5.0[min]
-Total clamp time;540.0[s]
+Total clamp time;360.0[s]

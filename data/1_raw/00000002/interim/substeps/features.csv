@@ -1,0 +1,15 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Tasche mit abgerundeten Endflächen Ø32.0[mm] mit einer Gesamtlänge 112.0[mm] und Tiefe 48.0[mm] (#40);-117605.9452636557;0.0;0.4398452067366476;Schruppfräser (32.0);1.1936620731892151;14.0;267380.3043943842;-
+2;2.2;Tasche mit abgerundeten Endflächen Ø112.0[mm] mit einer Gesamtlänge -67.0[mm] und Tiefe 50.0[mm] (#45);-4299.135958560213;0.0;0.014210999520408751;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.3;O-Ring-Nut Ø56.0[mm] x 12.0[mm] DIN3771 (#48);-19905.13105314493;0.0;0.15270772523883316;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-
+2;2.4;Durchgehender abgeschrägter Absatz: 300.0[mm] x 120.0[mm] x 52.0[mm] (#52);-1310400.0;0.0;4.331589870858654;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.5;Langloch Ø72.0[mm] x 40.0[mm] DIN3771 (#57);-185900.1631620949;0.0;0.6145018801464448;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.6;Dreieckige Stufe an Ecke mit 44.0[mm] L1, 15.0[mm] L2 und Tiefe 18.0[mm] (#63);-5940.0;0.0;0.04557035497514866;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-
+2;2.7;Rechteckige Stufe an Ecke mit 81.0[mm] L1, 20.0[mm] L2 und Tiefe 30.0[mm] (#68);-48600.0;0.0;0.26507188014663874;Schruppfräser (20.0);1.5278874536821954;10.0;183346.49444186347;-
+3;3.1;Geschweißter Steg L: 41.0[mm], B: 10.0[mm], H: 70.0[mm]  (#76);-23331.711563377008;0.0;0.0;- (-);-;-;-;102.0[mm]
+5;5.1;Bohrung Ø7 x 35.0[mm] mit 45°-Senkung mit M7 Gewinde (#151);-1357.5130289176595;0.0;0.048482608175630694;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-
+5;5.2;Bohrung Ø7 x 35.0[mm] mit 45°-Senkung mit M7 Gewinde (#155);-1357.5130289176589;0.0;0.04848260817563067;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-
+5;5.3;Bohrung Ø7 x 35.0[mm] mit 45°-Senkung mit M7 Gewinde (#159);-1357.5130289176564;0.0;0.04848260817563058;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-
+5;5.4;Bohrung Ø7 x 10.0[mm] mit 45°-Senkung (#167);-395.40027875578335;0.0;0.014121438526992262;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-
+5;5.5;Bohrung Ø7 x 35.0[mm] mit 45°-Senkung mit M7 Gewinde (#173);-1357.5130289176573;0.0;0.04848260817563062;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-
+5;5.6;Bohrung Ø7 x 7.0[mm] mit 45°-Senkung (#179);-279.94674873635876;0.0;0.009998098169155669;Spiralbohrer (7.0);0.1818913635335947;6.0;28000.0;-

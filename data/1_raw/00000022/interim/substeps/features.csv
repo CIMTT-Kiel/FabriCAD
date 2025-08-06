@@ -1,0 +1,8 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#50);-3957.7639327045426;0.0;0.03298136610587119;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.2;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#54);-3957.763932704544;0.0;0.032981366105871206;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.3;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#58);-3957.763932704545;0.0;0.03298136610587121;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.4;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#62);-3957.7639327045426;0.0;0.03298136610587119;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.5;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#66);-3957.7639327045417;0.0;0.032981366105871185;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.6;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#70);-3957.7639327045463;0.0;0.03298136610587122;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.7;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#74);-3957.763932704541;0.0;0.03298136610587117;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
