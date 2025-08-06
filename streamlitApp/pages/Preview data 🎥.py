@@ -6,7 +6,7 @@ import numpy as np
 import re
 
 #custom imports
-from constants import PATHS
+from fabricad.constants import PATHS
 
 
 
