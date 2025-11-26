@@ -8,6 +8,7 @@ data/2_intermediate
 data/3_primary
 data/4_feature
 data/5_model_input
+data
 
 
 #exclude unpacked preview files 
