@@ -1,3 +1,6 @@
+#standard library imports
+import random
+
 #third party imports
 import streamlit as st
 from pathlib import Path
@@ -8,6 +11,8 @@ import re
 #custom imports
 from fabricad.constants import PATHS
 
+#set random seed for reproducibility
+random.seed(42)
 
 
 def extract_rank(path_str):
@@ -20,7 +25,18 @@ path_to_samples = PATHS.DATA_RAW
 samples = sorted(list(path_to_samples.iterdir()))
 samples = [elem for elem in samples if elem.is_dir()]
 
+# filter samples with less than 4 steps
+for sample in samples:
+    if (sample / "plan.csv").exists():
+        plan = pd.read_csv(str(sample.joinpath("plan.csv")), sep=";", index_col=False, decimal='.', dtype={'Materialnummer' : str, 'Nr.' : str, ' Qualifikation' : 'uint8', "Kosten[($)]" : float})
+        if plan.shape[0]<=3:
+            samples.remove(sample)
+
+random.shuffle(samples)
+
 samplesTotal = len(samples)
+
+
 
 
 
@@ -29,7 +45,7 @@ st.title('Sample Viewer für synthetische Arbeitsplandaten')
 l,m,r = st.columns([1,2,1])
 
 with m:
-    totalToShow = st.number_input("Total of samples to display:", min_value=1, max_value=1000, step=5, value=10)
+    totalToShow = st.number_input("Total of samples to display:", min_value=1, max_value=1000, step=5, value=100)
 
 # to get different images/media in the rows and columns, have a systematic 
 # way to label your images/media. For mine, I have used row_{i}_col_0/1
