@@ -20,7 +20,7 @@ def extract_rank(path_str):
 
 st.set_page_config(layout="wide")
 
-path_to_samples = PATHS.DATA_RAW
+path_to_samples = PATHS.DATA_PREVIEW
 
 samples = sorted(list(path_to_samples.iterdir()))
 samples = [elem for elem in samples if elem.is_dir()]

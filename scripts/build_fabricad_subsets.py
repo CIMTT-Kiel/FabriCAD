@@ -4,7 +4,7 @@ import shutil
 
 
 # get all generated samples
-samples = PATHS.DATA_RAW.iterdir()
+samples = PATHS.DATA_FABRICAD.iterdir()
 
 
 # check for error files

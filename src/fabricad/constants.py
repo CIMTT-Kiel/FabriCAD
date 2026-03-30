@@ -21,7 +21,8 @@ _path_dict = {
     "REPORT_FIGURES":       _ROOT / "reports/figures",
     "CONFIG":               _ROOT / "config",
 
-    "DATA_RAW":             _ROOT / "data/preview",
+    "DATA_FABRICAD":        _ROOT / "data/fabricad",
+    "DATA_PREVIEW":         _ROOT / "data/preview",
     "DATA_INTERMEDIATE":    _ROOT / "data/2_intermediate",
     "DATA_PRIMARY":         _ROOT / "data/3_primary",
     "DATA_FEATURE":         _ROOT / "data/4_feature",
