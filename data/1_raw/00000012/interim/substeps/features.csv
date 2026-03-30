@@ -1,8 +1,0 @@
-Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
-2;2.1;Langloch Ø84.0[mm] x 27.0[mm] DIN3771 (#38);-317459.7749051747;0.0;1.0493784686998802;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
-2;2.2;Rechteckige Stufe an Ecke mit 71.0[mm] L1, 24.0[mm] L2 und Tiefe 25.0[mm] (#41);-42600.0;0.0;0.2323469566717451;Schruppfräser (20.0);1.5278874536821954;10.0;183346.49444186347;-
-2;2.3;Durchgehender Absatz: 186.75[mm] x 50.0[mm] x 16.0[mm] (#46);-149400.0;0.0;0.49384884516657723;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
-3;3.1;Bohrung Ø11 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M11 Gewinde (#119);-5725.463861174931;0.0;0.0867494524420444;Spiralbohrer (11.0);0.17362357428206765;9.5;66000.0;-
-3;3.2;Bohrung Ø9 x 28.0[mm]mit Passung H12 (#123);-1781.283034585413;0.0;0.0395840674352314;Spiralbohrer (9.0);0.1768388256576615;7.8;45000.0;-
-3;3.3;Bohrung Ø9 x 28.0[mm]mit Passung H12 (#127);-1781.283034585413;0.0;0.0395840674352314;Spiralbohrer (9.0);0.1768388256576615;7.8;45000.0;-
-4;4.1;Geschleifte Anschlussfläche Rz 0.7 (#134);-45180.76549752962;0.0;0.0;- (-);-;-;-;-
