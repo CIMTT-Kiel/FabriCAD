@@ -11,8 +11,7 @@ dependencies = [
     "matplotlib",
     "ipykernel",
     "pandas==2.2.3",
-    "tqdm",
-    "client @ git+https://github.com/CIMTT-Kiel/cad-api-client.git@v1.0.7",
+    "tqdm"
 ]
 
 [tool.setuptools]
