@@ -1,0 +1,11 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Durchgehender zweiseitig abgeschrägter Absatz: 300.0[mm] x 93.25[mm] x 60.0[mm] (#38);-1183342.5;0.0;3.9115952279888253;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.2;Rechteckige Tasche mit 66.0[mm] x 14.0[mm] x 12.0[mm] (#43);-11088.0;0.0;0.08506466262027748;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-
+2;2.3;Rechteckige Stufe an Ecke mit 122.0[mm] L1, 90.0[mm] L2 und Tiefe 4.0[mm] (#49);-43920.0;0.0;0.145179660506801;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+2;2.4;Rechteckige Tasche mit 26.0[mm] x 56.0[mm] x 25.0[mm] (#57);-36399.99999999999;0.0;0.1575644463605992;Schruppfräser (25.0);1.3750987083139756;12.0;231016.5829967479;-
+3;3.1;Geschweißter Steg L: 31.0[mm], B: 11.0[mm], H: 50.0[mm]  (#64);-13711.906582301377;0.0;0.0;- (-);-;-;-;84.0[mm]
+5;5.1;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#125);-3957.7639327045417;0.0;0.06596273221174237;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+5;5.2;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#133);-3957.7639327045426;0.0;0.06596273221174238;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+5;5.3;Bohrung Ø8 x 40.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M8 Gewinde (#139);-2202.4323793550466;0.0;0.055060809483876164;Spiralbohrer (8.0);0.1989436788648692;6.8;40000.0;-
+5;5.4;Bohrung Ø8 x 40.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M8 Gewinde (#147);-2202.4323793550466;0.0;0.055060809483876164;Spiralbohrer (8.0);0.1989436788648692;6.8;40000.0;-
+5;5.5;Bohrung Ø8 x 40.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M8 Gewinde (#151);-2202.4323793550466;0.0;0.055060809483876164;Spiralbohrer (8.0);0.1989436788648692;6.8;40000.0;-

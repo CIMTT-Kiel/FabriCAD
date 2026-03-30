@@ -1,0 +1,9 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#38);-4694.32482262655;0.0;0.07823874704377583;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.2;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#41);-4694.32482262655;0.0;0.07823874704377583;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.3;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#44);-4350.463014403267;0.0;0.07250771690672111;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.4;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#47);-4350.463014403265;0.0;0.07250771690672109;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.5;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#50);-4350.463014403265;0.0;0.07250771690672109;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.6;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#53);-4350.463014403265;0.0;0.07250771690672109;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.7;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#56);-4350.463014403265;0.0;0.07250771690672109;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+3;3.1;Geschweißte konisch zulaufende Aufnahme 18.0[mm]  (#70);-20854.604388818054;0.0;0.0;- (-);-;-;-;113.097[mm]

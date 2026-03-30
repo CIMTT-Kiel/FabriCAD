@@ -1,0 +1,12 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Durchgehender zweiseitig abgeschrägter Absatz: 300.0[mm] x 84.2[mm] x 50.0[mm] (#38);-757800.0;0.0;0.5398410233311439;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.2;Abgerundete Viertelstufe  Ø96 [mm] x 50.0[mm] (#43);-90477.86842338605;0.0;0.06445455935405295;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.3;Dreieckige Stufe an Ecke mit 75.0[mm] L1, 25.0[mm] L2 und Tiefe 37.0[mm] (#48);-34687.5;0.0;0.04095042507342621;Schruppfräser (25.0);3.921577797784301;12.0;847060.804321409;-
+2;2.4;O-Ring-Nut Ø22.0[mm] x 3.0[mm] DIN3771 (#53);-678.5840131753953;0.0;0.007613694823697502;Schruppfräser (3.0);14.854461355243567;2.0;89126.7681314614;-
+2;2.5;Rechteckige Tasche mit 110.0[mm] x 24.0[mm] x 20.0[mm] (#58);-52800.0;0.0;0.07898861529025764;Schruppfräser (20.0);4.45633840657307;10.0;668450.7609859605;-
+3;3.1;Bohrung Ø10 x 38.0[mm]mit Passung H12 (#67);-2984.513020910298;0.0;0.02487094184091915;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.2;Bohrung Ø10 x 47.0[mm]mit Passung H12 (#70);-3691.371367968009;0.0;0.030761428066400077;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.3;Bohrung Ø20 x 100.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M20 Gewinde (#76);-34413.00592742261;0.0;0.09559168313172947;Spiralbohrer (20.0);0.2864788975654116;17.5;360000.0;-
+3;3.4;Bohrung Ø20 x 100.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M20 Gewinde (#85);-34413.00592742259;0.0;0.09559168313172943;Spiralbohrer (20.0);0.2864788975654116;17.5;360000.0;-
+4;4.1;Geschweißter Steg L: 19.0[mm], B: 5.0[mm], H: 25.0[mm]  (#112);-1809.0215662685782;0.0;0.0;- (-);-;-;-;48.0[mm]
+6;6.1;Geschleifte Anschlussfläche Rz 0.7 (#123);-2768.027202976262;0.0;0.0;- (-);-;-;-;-

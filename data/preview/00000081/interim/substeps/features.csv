@@ -1,0 +1,17 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Geschweißte konisch zulaufende Aufnahme 93.0[mm]  (#38);-3339651.7425262574;0.0;0.0;- (-);-;-;-;584.336[mm]
+2;2.2;Geschweißter Steg L: 249.0[mm], B: 81.0[mm], H: 333.0[mm]  (#41);-5324346.5235376;0.0;0.0;- (-);-;-;-;660.0[mm]
+4;4.1;Durchgehender Schlitz-Stufe: 250.0[mm] x 100.5[mm] x 60.0[mm] (#48);-1507500.0;0.0;1.0739117744414086;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+4;4.2;Durchgehender Schlitz-Stufe: 250.0[mm] x 151.5[mm] x 60.0[mm] (#51);-2272500.0;0.0;1.6188819286355562;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+4;4.3;Tasche mit abgerundeten Endflächen Ø108.0[mm] mit einer Gesamtlänge 24.0[mm] und Tiefe 43.0[mm] (#54);-378075.00982415857;0.0;0.2693328057527132;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+4;4.4;Rechteckige Tasche mit 63.0[mm] x 39.0[mm] x 32.0[mm] (#59);-78624.0;0.0;0.07527758652825717;Schruppfräser (32.0);3.4815143801352106;15.0;1044454.3140405633;-
+4;4.5;Rechteckige Tasche mit 192.0[mm] x 59.0[mm] x 31.0[mm] (#72);-351168.0;0.0;0.2501648092915692;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+4;4.6;O-Ring-Nut Ø88.0[mm] x 12.0[mm] DIN3771 (#78);-41280.52746816989;0.0;0.08270829198361873;Schruppfräser (12.0);5.941784542097427;7.0;499109.90153618384;-
+4;4.7;Rechteckige Tasche mit 29.0[mm] x 19.0[mm] x 16.0[mm] (#83);-8816.0;0.0;0.015700839475083682;Schruppfräser (16.0);5.013380707394703;8.0;561498.6392282068;-
+5;5.1;Bohrung Ø8 x 40.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M8 Gewinde (#177);-2202.4323793550457;0.0;0.02753040474193807;Spiralbohrer (8.0);0.3978873577297384;6.8;80000.0;-
+5;5.2;Bohrung Ø17 x 37.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#198);-10238.843942529;0.0;0.039995484150503906;Spiralbohrer (16.0);0.3183098861837907;14.0;256000.0;-
+5;5.3;Bohrung Ø8 x 40.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M8 Gewinde (#202);-2202.432379355046;0.0;0.02753040474193808;Spiralbohrer (8.0);0.3978873577297384;6.8;80000.0;-
+5;5.4;Bohrung Ø7 x 35.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M7 Gewinde (#214);-1475.457629138244;0.0;0.02634745766318293;Spiralbohrer (7.0);0.3637827270671894;6.0;56000.0;-
+5;5.5;Bohrung Ø8 x 40.0[mm] mit 45°-Senkung mit M8 Gewinde (#226);-2026.375133544728;0.0;0.025329689169309097;Spiralbohrer (8.0);0.3978873577297384;6.8;80000.0;-
+5;5.6;Bohrung Ø8 x 40.0[mm] mit 45°-Senkung mit M8 Gewinde (#230);-2026.3751335447278;0.0;0.025329689169309097;Spiralbohrer (8.0);0.3978873577297384;6.8;80000.0;-
+5;5.7;Bohrung Ø8 x 36.0[mm] mit 45°-Senkung (#236);-1825.3132037149778;0.0;0.022816415046437222;Spiralbohrer (8.0);0.3978873577297384;6.8;80000.0;-

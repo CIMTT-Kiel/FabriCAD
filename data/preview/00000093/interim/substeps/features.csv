@@ -1,0 +1,6 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Durchgehender Absatz: 100.0[mm] x 69.15[mm] x 40.0[mm] (#38);-276600.0;0.0;0.19704411065372712;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+2;2.2;Rechteckige Tasche mit 49.0[mm] x 21.0[mm] x 20.0[mm] (#48);-20580.0;0.0;0.03078760800517997;Schruppfräser (20.0);4.45633840657307;10.0;668450.7609859605;-
+2;2.3;Langloch Ø56.0[mm] x 40.0[mm] DIN3771 (#53);-127640.34561657591;0.0;0.09092833834256167;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+3;3.1;Bohrung Ø20 x 105.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#79);-35983.80225421749;0.0;0.09995500626171525;Spiralbohrer (20.0);0.2864788975654116;17.5;360000.0;-
+4;4.1;Geschweißte konisch zulaufende Aufnahme 22.0[mm]  (#100);-37244.537955335465;0.0;0.0;- (-);-;-;-;138.23[mm]

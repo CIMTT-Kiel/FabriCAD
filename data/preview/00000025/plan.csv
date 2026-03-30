@@ -1,0 +1,6 @@
+Nr.;Schritt;Materialnummer;Volumen[mm^3];Arbeitsplatz;Qualifikation;Kosten[($)];Dauer[min]
+0;initWorkingstep;null;2250000.0;null;1;0.0;0.0
+1;liefern;00000025;2250000.0;liefern_3;1;0.0;0.0
+2;bohren;00000025;2227608.298361539;Drill_Press_01;2;4.82779356223611;9.557860401885545
+3;schweißen;00000025;2259131.1395666343;Welding_Station_02;2;4.6335;5.95
+4;prüfen;00000025;2259131.1395666343;Welding_Station_02;1;0.0;10.0

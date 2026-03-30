@@ -1,0 +1,13 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Rechteckige Stufe an Ecke mit 93.0[mm] L1, 33.0[mm] L2 und Tiefe 48.0[mm] (#41);-147312.0;0.0;0.14104207146228404;Schruppfräser (32.0);3.4815143801352106;15.0;1044454.3140405633;-
+2;2.2;Tasche für Sechskantmutter D=30.0[mm] x 3.0[mm] (#46);-1753.7014426634887;0.0;0.019676484174505134;Schruppfräser (3.0);14.854461355243567;2.0;89126.7681314614;-
+2;2.3;O-Ring-Nut Ø20.0[mm] x 3.0[mm] DIN3771 (#52);-603.1857894892403;0.0;0.006767728732175559;Schruppfräser (3.0);14.854461355243567;2.0;89126.7681314614;-
+2;2.4;Langloch Ø18.0[mm] x 16.0[mm] DIN3771 (#55);-8391.504079052373;0.0;0.014944834221836572;Schruppfräser (16.0);5.013380707394703;8.0;561498.6392282068;-
+2;2.5;O-Ring-Nut Ø66.0[mm] x 8.0[mm] DIN3771 (#60);-12893.096250332515;0.0;0.05904498026540923;Schruppfräser (8.0);7.798592211502872;4.0;218360.58192208043;-
+2;2.6;Rechteckige Tasche mit 180.0[mm] x 16.0[mm] x 16.0[mm] (#66);-46080.0;0.0;0.0820660938080599;Schruppfräser (16.0);5.013380707394703;8.0;561498.6392282068;-
+2;2.7;Durchgehender abgeschrägter Absatz: 200.0[mm] x 58.2[mm] x 12.0[mm] (#71);-94982.40000000001;0.0;0.06766349434474539;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+3;3.1;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#140);-3957.7639327045426;0.0;0.03298136610587119;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.2;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#144);-4301.625740927824;0.0;0.035846881174398534;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.3;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#148);-4301.625740927824;0.0;0.035846881174398534;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.4;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#152);-3957.7639327045417;0.0;0.032981366105871185;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.5;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#156);-3957.7639327045445;0.0;0.032981366105871206;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-

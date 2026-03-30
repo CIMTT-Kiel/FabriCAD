@@ -1,0 +1,16 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#43);-4301.625740927825;0.0;0.07169376234879708;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.2;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#46);-4301.625740927825;0.0;0.07169376234879708;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.3;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#49);-4301.625740927823;0.0;0.07169376234879705;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.4;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#52);-4301.625740927825;0.0;0.07169376234879708;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.5;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#55);-4301.625740927825;0.0;0.07169376234879708;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+3;3.1;Geschweißter Steg L: 129.0[mm], B: 30.0[mm], H: 183.0[mm]  (#60);-565215.7756461187;0.0;0.0;- (-);-;-;-;318.0[mm]
+3;3.2;Geschweißte konisch zulaufende Aufnahme 32.0[mm]  (#64);-120603.56918895841;0.0;0.0;- (-);-;-;-;201.062[mm]
+3;3.3;Geschweißte konisch zulaufende Aufnahme 38.0[mm]  (#67);-186150.13145779204;0.0;0.0;- (-);-;-;-;238.761[mm]
+3;3.4;Geschweißte konisch zulaufende Aufnahme 35.0[mm]  (#70);-162399.19259302222;0.0;0.0;- (-);-;-;-;219.911[mm]
+5;5.1;O-Ring-Nut Ø26.0[mm] x 6.0[mm] DIN3771 (#105);-2506.9909375646557;0.0;0.032816434633622125;Schruppfräser (6.0);3.183098861837907;4.0;76394.37268410977;-
+5;5.2;Langloch Ø18.0[mm] x 16.0[mm] DIN3771 (#113);-11271.504079052373;0.0;0.07868994313257406;Schruppfräser (16.0);1.7904931097838224;8.0;143239.4487827058;-
+5;5.3;Langloch Ø20.0[mm] x 20.0[mm] DIN3771 (#127);-12683.185307179583;0.0;0.06917604476589127;Schruppfräser (20.0);1.5278874536821954;10.0;183346.49444186347;-
+5;5.4;Abgerundete Viertelstufe  Ø82 [mm] x 12.0[mm] (#147);-15843.05175205333;0.0;0.05236996527219449;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+5;5.5;Abgerundete Viertelstufe  Ø26 [mm] x 37.0[mm] (#153);-4911.094715724243;0.0;0.021258624173284467;Schruppfräser (25.0);1.3750987083139756;12.0;231016.5829967479;-
+5;5.6;Rechteckige Tasche mit 15.0[mm] x 13.0[mm] x 12.0[mm] (#165);-2340.0;0.0;0.017951958020513106;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-

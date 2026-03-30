@@ -1,0 +1,14 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#43);-3957.763932704545;0.0;0.03298136610587121;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.2;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#46);-3957.763932704547;0.0;0.032981366105871227;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.3;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#49);-3957.7639327045404;0.0;0.032981366105871164;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.4;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#52);-3957.7639327045463;0.0;0.03298136610587122;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+2;2.5;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#55);-3957.7639327045426;0.0;0.03298136610587119;Spiralbohrer (10.0);0.38197186342054884;8.5;120000.0;-
+3;3.1;Geschweißter Steg L: 197.0[mm], B: 62.0[mm], H: 330.0[mm]  (#60);-3292568.290536099;0.0;0.0;- (-);-;-;-;518.0[mm]
+3;3.2;Geschweißter Steg L: 174.0[mm], B: 52.0[mm], H: 214.0[mm]  (#64);-1509339.048333665;0.0;0.0;- (-);-;-;-;452.0[mm]
+3;3.3;Geschweißter Winkel L: 166.0[mm], B: 75.0[mm], H: 220.0[mm], t: 17.0[mm] (#67);-470475.0;0.0;0.0;- (-);-;-;-;482.0[mm]
+5;5.1;Rechteckige Tasche mit 87.0[mm] x 27.0[mm] x 25.0[mm] (#103);-58725.0;0.0;0.06932796288106535;Schruppfräser (25.0);3.921577797784301;12.0;847060.804321409;-
+5;5.2;Durchgehender zweiseitig abgeschrägter Absatz: 250.0[mm] x 80.0[mm] x 50.0[mm] (#109);-659999.9999999999;0.0;0.47017032910867634;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+5;5.3;Tasche mit abgerundeten Endflächen Ø50.0[mm] mit einer Gesamtlänge 23.0[mm] und Tiefe 7.0[mm] (#127);-15272.233929727674;0.0;0.010879623110552659;Schruppfräser (40.0);3.119436884601149;18.0;1403746.5980705172;-
+5;5.4;Abgerundete Viertelstufe  Ø30 [mm] x 37.0[mm] (#139);-6538.439710283757;0.0;0.007718973274323302;Schruppfräser (25.0);3.921577797784301;12.0;847060.804321409;-
+5;5.5;O-Ring-Nut Ø68.0[mm] x 16.0[mm] DIN3771 (#147);-43580.17329059761;0.0;0.07761403188883875;Schruppfräser (16.0);5.013380707394703;8.0;561498.6392282068;-

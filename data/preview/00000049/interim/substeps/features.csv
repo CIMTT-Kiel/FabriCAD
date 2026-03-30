@@ -1,0 +1,14 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#42);-4350.463014403265;0.0;0.07250771690672109;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.2;Bohrung Ø10 x 55.0[mm] mit 45°-Senkung (#45);-4350.463014403267;0.0;0.07250771690672111;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.3;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#48);-4694.32482262655;0.0;0.07823874704377583;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.4;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#51);-4694.324822626549;0.0;0.07823874704377581;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+2;2.5;Bohrung Ø10 x 55.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 (#54);-4694.324822626549;0.0;0.07823874704377581;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+3;3.1;Geschweißte konisch zulaufende Aufnahme 19.0[mm]  (#59);-18732.76666261462;0.0;0.0;- (-);-;-;-;119.381[mm]
+3;3.2;Geschweißter Winkel L: 41.0[mm], B: 18.0[mm], H: 59.0[mm], t: 5.0[mm] (#62);-8550.0;0.0;0.0;- (-);-;-;-;118.0[mm]
+3;3.3;Geschweißter Steg L: 44.0[mm], B: 13.0[mm], H: 63.0[mm]  (#65);-28473.818195036984;0.0;0.0;- (-);-;-;-;114.0[mm]
+5;5.1;Rechteckige Tasche mit 29.0[mm] x 9.0[mm] x 8.0[mm] (#98);-2088.0;0.0;0.02271738687686749;Schruppfräser (8.0);2.626056561016273;5.0;91911.97963556957;-
+5;5.2;Durchgehender abgeschrägter Absatz: 200.0[mm] x 15.75[mm] x 18.0[mm] (#106);-36855.00000000001;0.0;0.2827433388230815;Schruppfräser (12.0);2.0690142601946393;7.0;130347.89839226227;-
+5;5.3;Dreieckige Stufe an Ecke mit 79.0[mm] L1, 35.0[mm] L2 und Tiefe 12.0[mm] (#110);-16589.999999999996;0.0;0.06204645490839839;Schruppfräser (32.0);1.1936620731892151;14.0;267380.3043943842;-
+5;5.4;Rechteckige Tasche mit 26.0[mm] x 27.0[mm] x 8.0[mm] (#116);-5616.0;0.0;0.024309943152778166;Schruppfräser (25.0);1.3750987083139756;12.0;231016.5829967479;-
+5;5.5;Dreieckige Stufe an Ecke mit 57.0[mm] L1, 9.0[mm] L2 und Tiefe 12.0[mm] (#130);-3078.0;0.0;0.03348856168917535;Schruppfräser (8.0);2.626056561016273;5.0;91911.97963556957;-

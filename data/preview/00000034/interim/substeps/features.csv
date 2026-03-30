@@ -1,0 +1,12 @@
+Arbeitsschritt;Subschritt;Kurztext;Volumen[mm^3];Kosten[($)];Dauer[min]; Werkzeug[mm](D);vf[m/min];ap[mm];ZSV[mm^3/min];Schweißnaht [mm]
+2;2.1;Geschweißte konisch zulaufende Aufnahme 72.0[mm]  (#38);-1378016.9487622213;0.0;0.0;- (-);-;-;-;452.389[mm]
+2;2.2;Geschweißter Steg L: 170.0[mm], B: 42.0[mm], H: 288.0[mm]  (#41);-1690529.6496865375;0.0;0.0;- (-);-;-;-;424.0[mm]
+2;2.3;Geschweißte konisch zulaufende Aufnahme 39.0[mm]  (#45);-180240.2338220443;0.0;0.0;- (-);-;-;-;245.044[mm]
+4;4.1;Dreieckige Stufe an Ecke mit 111.0[mm] L1, 56.0[mm] L2 und Tiefe 50.0[mm] (#53);-155400.0;0.0;0.5136821321210583;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+4;4.2;Rechteckige Tasche mit 182.0[mm] x 33.0[mm] x 32.0[mm] (#60);-192192.0;0.0;0.7187963991413445;Schruppfräser (32.0);1.1936620731892151;14.0;267380.3043943842;-
+4;4.3;Tasche mit abgerundeten Endflächen Ø44.0[mm] mit einer Gesamtlänge 23.0[mm] und Tiefe 50.0[mm] (#72);-87513.27110843649;0.0;0.2892793030364856;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+4;4.4;Langloch Ø56.0[mm] x 40.0[mm] DIN3771 (#75);-143320.34561657588;0.0;0.47375225683815747;Schruppfräser (40.0);1.0504226244065094;16.0;302521.71582907473;-
+5;5.1;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#134);-3957.763932704543;0.0;0.0659627322117424;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+5;5.2;Bohrung Ø10 x 50.0[mm] mit 45°-Senkung mit M10 Gewinde (#138);-3957.7639327045426;0.0;0.06596273221174238;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+5;5.3;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#196);-4301.625740927824;0.0;0.07169376234879707;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-
+5;5.4;Bohrung Ø10 x 50.0[mm] mit zylindrischer Senkung für Zylinderkopfschraube nach DIN 912 mit M10 Gewinde (#200);-4301.625740927824;0.0;0.07169376234879707;Spiralbohrer (10.0);0.19098593171027442;8.5;60000.0;-

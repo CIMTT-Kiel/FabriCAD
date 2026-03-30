@@ -4,11 +4,10 @@ __pycache__/
 *$py.class
 
 # exlude data files
-data/
 reports/
 
 #exclude unpacked preview files 
-data/preview_samples/*
+data/fabricad/*
 
 # C extensions
 *.so
